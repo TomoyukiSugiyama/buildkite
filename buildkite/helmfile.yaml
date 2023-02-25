@@ -1,0 +1,11 @@
+repositories:
+  - name: buildkite
+    url: https://buildkite.github.io/charts
+
+releases:
+  - name: buildkite
+    namespace: buildkite
+    createNamespace: true
+    chart: buildkite/agent
+    version: v0.6.0
+
